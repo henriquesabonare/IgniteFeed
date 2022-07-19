@@ -1,0 +1,14 @@
+.contentPostData{
+  display: flex;
+  flex-flow: column wrap;
+  gap: 2rem;
+}
+.contentPostData a{
+  color: var(--green-300);
+  text-decoration: none;
+}
+.hashtags{
+  text-transform: lowercase;
+  display: flex;
+  gap: .5rem;
+}

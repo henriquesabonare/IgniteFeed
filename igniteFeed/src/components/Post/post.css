@@ -1,0 +1,80 @@
+.posts{
+  flex: 3;
+}
+.headerPost{
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row nowrap;  
+  align-items: center;
+
+}
+.postProfile{
+  display: flex;
+  gap: 1rem;
+}
+.postChar{
+  display: flex;
+  flex-flow: column wrap;
+  gap: .5rem;
+  justify-content: flex-start;
+}
+.mainPost{
+  background-color: var(--gray-800);  
+  padding: 4rem 2rem;
+  display: flex;
+  flex-flow: column;
+  gap: 2rem;
+}
+.mainPost + .mainPost{
+  margin-top: 2rem;
+}
+.profileComment .profileData{
+  display: flex;
+  flex-flow: row;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.profileComment .profileData img{
+  outline: none;
+}
+.profileComment .profileData .dataComment{
+  display: flex;
+  flex-flow: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.8rem;
+  
+  background-color: var(--gray-700);
+  width: 100%;
+  height: 7.5rem;
+  border-radius: 9px;
+  padding: 1rem;
+
+}
+.profileComment .profileData .dataComment .profileNickNameUser{
+  display: flex;
+  gap: 0.3rem;
+}
+.profileComment .profileData .dataComment .profileNickNameUser span{
+  visibility: visible;
+}
+.lixeira,
+.lixeira:hover {
+  width: 0;
+  height: 0;
+  border: none;
+}
+.lixeira:hover path[stroke="#8D8D99"]{
+  stroke: #F75A68;
+}
+.profileComment .deletebutton{
+  margin-right: 1rem;
+}
+.profileComment .job p{
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+.profileComment .profileData .dataComment .containerComment :nth-child(4) {
+  margin-top: 1rem;
+}

@@ -1,0 +1,55 @@
+:root{
+  --white-color:  rgb(255, 255, 255);
+  --gray-100: #E1E1E6;
+  --gray-300: #C4C4CC;
+  --gray-400: #8D8D99;
+  --gray-600: #323238;
+  --gray-700: #29292E;
+  --gray-800: #202024;
+  --gray-900: #121214;
+
+  --green-500: #00875F;
+  --green-300: #00B37E;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: var(--white-color);
+  font-family: 'Roboto', sans-serif;
+
+}
+
+body{
+  background-color: var(--gray-900);
+  color: var(--gray-300);
+}
+body, input, button, textarea{
+  font-size: 1rem;
+}
+.main{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-inline: 5%;
+  margin-top: 2rem;
+}
+h3{
+  font-size: 16px;
+}
+p, span{
+font-size: 14px;
+color: var(--gray-400);
+}
+hr{
+  border:1px solid var(--gray-600);
+  width: 100%;
+}
+img.imageProfile{
+  padding: 2px;
+  outline: 3px solid var(--green-500);
+  border-radius: 10%;
+  width: 3rem;
+  height: 3rem;
+}

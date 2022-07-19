@@ -1,0 +1,25 @@
+.profileData{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: .8rem;
+}
+.dataComment{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+}
+.contentProfile .dataComment .containerComment {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.contentProfile .dataComment .containerComment :nth-child(3),
+.contentProfile .dataComment .containerComment :nth-child(4)
+{
+  opacity: 0;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}

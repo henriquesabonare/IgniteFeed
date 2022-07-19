@@ -1,0 +1,42 @@
+.sidebar{
+  flex: 1;
+  display: flex;
+
+}
+.contentProfile{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 1rem;
+  position: relative;
+  top: -10%;
+}
+aside{
+  background-color: var(--gray-800);
+  height: 17rem;
+}
+aside button{
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+
+  width: 11rem;
+  height: 3rem;
+
+  color: var(--green-500);
+  border: 2px solid var(--green-500);
+  background-color: var(--gray-800);
+  border-radius: 5px;
+
+  cursor: pointer;
+}
+aside button:hover{
+  color: var(--white-color);
+  background-color: var(--green-500);
+  border: var(--green-500);
+}
+button:hover path{
+  stroke: var(--white-color);
+}
